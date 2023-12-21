@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Student Grade System</title>
+  </head>
+  <body>
+    <div id="grade-container">
+      <h2>Student Grade System</h2>
+
+      <label for="subject1">SCIENCES:</label>
+      <input
+        type="number"
+        id="subject1"
+        placeholder="Enter marks for Subject 1"
+      />
+
+      <label for="subject2">MATHS:</label>
+      <input
+        type="number"
+        id="subject2"
+        placeholder="Enter marks for Subject 2"
+      />
+
+      <label for="subject3">WAB DEVLOPMENT:</label>
+      <input
+        type="number"
+        id="subject3"
+        placeholder="Enter marks for Subject 3"
+      />
+
+      <label for="subject4">COMPUTER:</label>
+      <input
+        type="number"
+        id="subject4"
+        placeholder="Enter marks for Subject 4"
+      />
+
+      <button onclick="calculateGrades()">Calculate Grades</button>
+
+      <div id="result-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
